@@ -10,7 +10,7 @@ import {
   FiChevronLeft,
   FiChevronRight,
 } from "react-icons/fi";
-import { Widget } from "./widget";
+import { Widget } from "./Widget";
 
 type Tab = "all" | "monitored" | "unmonitored";
 

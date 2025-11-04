@@ -68,7 +68,7 @@ export const VendorBarChart: React.FC = () => {
           }}
           itemStyle={{ color: "#fff" }}
           labelStyle={{ color: "#A0AEC0" }}
-          formatter={(value: number, name: string, props: any) => {
+          formatter={(_value: number, name: string, props: any) => {
             if (name === "lower") {
               // Calculate total rating for tooltip, assuming 'upper' is difference
               const totalRating = props.payload.lower + props.payload.upper;

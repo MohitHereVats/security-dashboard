@@ -1,5 +1,5 @@
 import React from "react";
-import { Widget } from "./widget";
+import { Widget } from "./Widget";
 import { VendorBarChart } from "./VendorBarChart";
 import { VendorGaugeChart } from "./VendorGaugeChart";
 import { VendorMovements } from "./VendorMovements";
@@ -9,7 +9,6 @@ import {
   FiMoreHorizontal,
   FiZap,
   FiArrowUp,
-  FiMenu,
 } from "react-icons/fi";
 
 export const DashboardPage: React.FC = () => {
